@@ -44,6 +44,6 @@ public class VariableTest {
 		
 		System.out.println(ch1 + ":" + ch2 + ":" + ch3);
 		//커밋확인
-		
+		//다운로드후 커밋확인
 	}
 }
