@@ -37,13 +37,13 @@ public class VariableTest {
 		String str2 = "Hello World";
 		System.out.println(str2);
 		
-		//charcter 형
+		//charcter 형 
 		char ch1 = '1';
 		char ch2 = 49;
 		char ch3 = 1;
 		
 		System.out.println(ch1 + ":" + ch2 + ":" + ch3);
-		
+		//커밋확인
 		
 	}
 }
