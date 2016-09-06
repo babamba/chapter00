@@ -6,16 +6,15 @@ public class Guguadan02 {
 		int result;
 		
 		for(int i = 1; i<10; i++){
-			for(int j = 1; j<10; j++){
-				result = i*j;				
-			if(j >= 9){
-				System.out.println();
+			for(int j = 1; j<10; j++){			
+			if(j <= 1){
+				System.out.print("\n");
 			}
+				result = i*j;
 				System.out.print(j + "X" + i + "="+ result + "	");
 		}
 
-			
-		}
+	}
 		
 		
 	//	print(i+"*"+j+"="+(i*j));

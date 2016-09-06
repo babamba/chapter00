@@ -5,11 +5,12 @@ public class Triangle {
 
 		String x = "X";
 		
-		
 		for(int i = 0; i < 6; i++){
 			System.out.println(x);
 //			x += x;
-			int sum = i;
+			String sum = x;
+			String temp = "X";
+			sum = temp; 
 			x = x + sum;
 		}
 		
