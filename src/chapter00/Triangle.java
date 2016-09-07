@@ -3,16 +3,15 @@ package chapter00;
 public class Triangle {
 	public static void main(String[] args) {
 
-		String x = "X";
+		int push = 7;
 		
-		for(int i = 0; i < 6; i++){
-			System.out.println(x);
-//			x += x;
-			String sum = x;
-			String temp = "X";
-			sum = temp; 
-			x = x + sum;
+		for(int i = 0; i < push; i++){
+			for(int j = 0; j < i; j++){
+				System.out.print("X");
+				}
+			 	System.out.println();
+			}
+		
 		}
 		
 	}
-}
